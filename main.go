@@ -1,3 +1,5 @@
+// go run main.go
+
 package main
 
 import (
@@ -10,7 +12,7 @@ import (
 )
 
 func main() {
-	fmt.Println("=== Command Embedder Tool ===\n")
+	fmt.Println("=== GoSt - Go Stager ===\n")
 
 	scanner := bufio.NewScanner(os.Stdin)
 
