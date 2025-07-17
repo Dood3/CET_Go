@@ -1,4 +1,13 @@
+// Run:
 // go run main.go
+//
+// Compile:
+// GOOS=windows GOARCH=amd64 go build -o myprogram.exe main.go
+// GOOS=linux GOARCH=amd64 go build -o myprogram main.go
+// GOOS=darwin GOARCH=arm64 go build -o myprogram main.go  # macOS ARM
+//
+// Compile binary smaller and more optimized:
+// go build -ldflags="-s -w" -o myprogram main.go
 
 package main
 
